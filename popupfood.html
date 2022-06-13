@@ -1,0 +1,50 @@
+<div id="foodmodal" class="modal">
+
+    <!-- Modal content -->
+    <div id="foodmodalcont" class="modal-content">
+      <span class="close">&times;</span>
+      <p>
+        <b>2.05</b>
+       <br>14.25.search. <i>croquetas de atún</i>
+       <br> 14.22.search. <i>recetas de comida para evitar la inflamación fáciles y deliciosas.</i> 
+       <br>
+       <br> <b>1.05  </b>  
+       <br>1.21 search. <i>marihuana y una dieta de reflujo ácido</i> 
+       <br>
+       <br><b>18.04</b>
+       <br>16.15. kiwilimón. <i>Cheescake de Oreo frío.</i>
+       <br>
+       <br><b>17.04</b>       
+       <br>23.18. Itinari.com. <i>Celebrando la pascua en la republica checa</i>
+       <br>16.24. search <i>cheescake de oreo frío</i>
+       <br>15.15 Cravings Journal. <i>cheescake de oreo</i></p>
+    </div>
+  
+  </div>
+  <script>
+    // Get the modal
+    var modal = document.getElementById("foodmodal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("foodBt");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>

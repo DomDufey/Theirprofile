@@ -1,0 +1,16 @@
+@media print{
+    .about {
+    display: none;
+    }
+   
+    .body{
+        background-image: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    body{
+        overflow: scroll;
+        background-attachment: fixed;
+    }
+}
